@@ -2,7 +2,7 @@
   "name": "generic-es6-project",
   "version": "0.0.0",
   "description": "Generic starter project for an ES6 project.",
-  "main": "index.js",
+  "main": "src/index.js",
   "author": "Kyle Williamson",
   "license": "MIT",
   "devDependencies": {
@@ -26,7 +26,7 @@
   "scripts": {
     "start": "babel-node src",
     "lint": "eslint src && flow",
-    "test": "yarn lint && jest --coverage"
+    "test": "npm run lint && jest --coverage"
   },
   "dependencies": {},
   "browserslist": [
